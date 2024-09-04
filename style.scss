@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.primeira-sessao{
+    border: solid blue 5px;
+    //apenas a div que está dentro da primeira-sessao vai receber esse estilo:
+    div{
+        //largura
+        width: 200px;
+        //cor de fundo
+        background-color: lightblue;
+        //altura
+        height: 200px;
+    }
+}
